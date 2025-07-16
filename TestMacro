@@ -1,0 +1,280 @@
+Sub CopasFr()
+    Windows("Master Data Process Quality.xlsm").Activate
+    Sheets("Utama").Select
+    Range("C2:C3").Select
+    Selection.Copy
+End Sub
+Sub PasTo()
+    Sheets("Daily 2025").Select
+    Range("G1").Select
+    PasValTrans
+End Sub
+Sub CopasFrTo()
+    PasTo
+    CopasDaily
+End Sub
+Sub UpdateData()
+
+BukaFile1
+CopasFr
+Windows("LB Wood Incoming Direct Feeding.xlsx").Activate
+CopasFrTo
+
+BukaFile2
+CopasFr
+Windows("LB WP Chip To Digester Size Distribution.xlsx").Activate
+CopasFrTo
+
+BukaFile3
+CopasFr
+Windows("LB FL Blow Line.xlsx").Activate
+CopasFrTo
+
+BukaFile4
+CopasFr
+Windows("LB FL Brightness.xlsx").Activate
+CopasFrTo
+
+BukaFile5
+CopasFr
+Windows("LB FL Chip Ratio.xlsx").Activate
+CopasFrTo
+
+BukaFile6
+CopasFr
+Windows("LB FL Dewatering Press Consistency.xlsx").Activate
+CopasFrTo
+
+BukaFile7
+CopasFr
+Windows("LB FL Final stage.xlsx").Activate
+CopasFrTo
+
+BukaFile8
+CopasFr
+Windows("LB FL Inlet Bleaching.xlsx").Activate
+CopasFrTo
+
+BukaFile9
+CopasFr
+Windows("LB FL Kappa No.xlsx").Activate
+CopasFrTo
+
+BukaFile10
+CopasFr
+Windows("LB FL outlet HDT.xlsx").Activate
+CopasFrTo
+
+BukaFile11
+CopasFr
+Windows("LB FL Oxidized WL.xlsx").Activate
+CopasFrTo
+
+BukaFile12
+CopasFr
+Windows("LB FL Soda Loss - COD.xlsx").Activate
+CopasFrTo
+
+BukaFile13
+CopasFr
+Windows("LB FL Viscosity.xlsx").Activate
+CopasFrTo
+
+BukaFile14
+CopasFr
+Windows("LB FL Waste Water to EN Fiber Content.xlsx").Activate
+CopasFrTo
+
+BukaFile15
+CopasFr
+Windows("LB PD Dirt Count.xlsx").Activate
+CopasFrTo
+
+BukaFile16
+CopasFr
+Windows("LB PD Moisture.xlsx").Activate
+CopasFrTo
+
+BukaFile17
+CopasFr
+Windows("LB PD Dirt Classification.xlsx").Activate
+CopasFrTo
+
+BukaFile18
+CopasFr
+Windows("LB PD Finish Product.xlsx").Activate
+CopasFrTo
+
+BukaFile19
+CopasFr
+Windows("LB PD Finish Product Random Check.xlsx").Activate
+CopasFrTo
+
+BukaFile20
+CopasFr
+Windows("LB PD Finish Product Physical Properties.xlsx").Activate
+CopasFrTo
+
+BukaFile21
+CopasFr
+Windows("LB PD Dirt Size Distribution.xlsx").Activate
+CopasFrTo
+
+BukaFile22
+CopasFr
+Windows("LB PD Brightness.xlsx").Activate
+CopasFrTo
+
+BukaFile23
+CopasFr
+Windows("LB Chemical Plant.xlsx").Activate
+CopasFrTo
+
+BukaFile24
+CopasFr
+Windows("LB LK Lime Kiln.xlsx").Activate
+CopasFrTo
+
+BukaFile25
+CopasFr
+Windows("LB O2 plant.xlsx").Activate
+CopasFrTo
+
+BukaFile26
+CopasFr
+Windows("LB RB ESP Ash.xlsx").Activate
+CopasFrTo
+
+BukaFile27
+CopasFr
+Windows("LB RB Raw Green Liquor.xlsx").Activate
+CopasFrTo
+
+BukaFile28
+CopasFr
+Windows("LB RC Green Liquor Clarifier.xlsx").Activate
+CopasFrTo
+
+BukaFile29
+CopasFr
+Windows("LB RC Weak White Liquor.xlsx").Activate
+CopasFrTo
+
+BukaFile30
+CopasFr
+Windows("LB RC White Liquor.xlsx").Activate
+CopasFrTo
+
+BukaFile31
+CopasFr
+Windows("LB VE Heavy Black Liquor.xlsx").Activate
+CopasFrTo
+
+BukaFile32
+CopasFr
+Windows("LB VE Weak Black Liquor.xlsx").Activate
+CopasFrTo
+
+BukaFile33
+CopasFr
+Windows("LB Water Plant.xlsx").Activate
+CopasFrTo
+
+BukaFile34
+CopasFr
+Windows("LB Boiler Water Contractor.xlsx").Activate
+CopasFrTo
+
+BukaFile35
+CopasFr
+Windows("LB Boiler Water Lab.xlsx").Activate
+CopasFrTo
+
+BukaFile24_1
+CopasFr
+Windows("LB LK Lime Kiln (item).xlsx").Activate
+CopasFrTo
+
+BukaFile27_1
+CopasFr
+Windows("LB RB Raw Green Liquor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile28_1
+CopasFr
+Windows("LB RC Green Liqour Clarifier (item).xlsx").Activate
+CopasFrTo
+
+BukaFile29_1
+CopasFr
+Windows("LB RC Weak White Liquor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile30_1
+CopasFr
+Windows("LB RC White Liquor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile34_1
+CopasFr
+Windows("LB Boiler Water Contractor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile35_1
+CopasFr
+Windows("LB Boiler Water Lab (item).xlsx").Activate
+CopasFrTo
+
+
+ActiveWorkbook.Save
+
+End Sub
+
+
+Sub UpdateDataTRIAL()
+
+BukaFile24_1
+CopasFr
+Windows("LB LK Lime Kiln (item).xlsx").Activate
+CopasFrTo
+
+BukaFile27_1
+CopasFr
+Windows("LB RB Raw Green Liquor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile28_1
+CopasFr
+Windows("LB RC Green Liqour Clarifier (item).xlsx").Activate
+CopasFrTo
+
+BukaFile29_1
+CopasFr
+Windows("LB RC Weak White Liquor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile30_1
+CopasFr
+Windows("LB RC White Liquor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile34_1
+CopasFr
+Windows("LB Boiler Water Contractor (item).xlsx").Activate
+CopasFrTo
+
+BukaFile35_1
+CopasFr
+Windows("LB Boiler Water Lab (item).xlsx").Activate
+CopasFrTo
+
+
+
+
+ActiveWorkbook.Save
+
+End Sub
+
+
+
+
