@@ -1,0 +1,214 @@
+Sub BukaFile1()
+    ChDir "R:\02 Process Quality\01 Wood Preparation"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\01 Wood Preparation\LB Wood Incoming Direct Feeding.xlsx"
+End Sub
+Sub BukaFile2()
+    ChDir "R:\02 Process Quality\01 Wood Preparation"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\01 Wood Preparation\LB WP Chip To Digester Size Distribution.xlsx"
+End Sub
+Sub BukaFile3()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Blow Line.xlsx"
+End Sub
+Sub BukaFile4()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Brightness.xlsx"
+End Sub
+Sub BukaFile5()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Chip Ratio.xlsx"
+End Sub
+Sub BukaFile6()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Dewatering Press Consistency.xlsx"
+End Sub
+Sub BukaFile7()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Final stage.xlsx"
+End Sub
+Sub BukaFile8()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Inlet Bleaching.xlsx"
+End Sub
+Sub BukaFile9()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Kappa No.xlsx"
+End Sub
+Sub BukaFile10()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL outlet HDT.xlsx"
+End Sub
+Sub BukaFile11()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Oxidized WL.xlsx"
+End Sub
+Sub BukaFile12()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Soda Loss - COD.xlsx"
+End Sub
+Sub BukaFile13()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Viscosity.xlsx"
+End Sub
+Sub BukaFile14()
+    ChDir "R:\02 Process Quality\02 Fiber Line"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\02 Fiber Line\LB FL Waste Water to EN Fiber Content.xlsx"
+End Sub
+Sub BukaFile15()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Dirt Count.xlsx"
+End Sub
+Sub BukaFile16()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Moisture.xlsx"
+End Sub
+Sub BukaFile17()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Dirt Classification.xlsx"
+End Sub
+Sub BukaFile18()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Finish Product.xlsx"
+End Sub
+Sub BukaFile19()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Finish Product Random Check.xlsx"
+End Sub
+Sub BukaFile20()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Finish Product Physical Properties.xlsx"
+End Sub
+Sub BukaFile21()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Dirt Size Distribution.xlsx"
+End Sub
+Sub BukaFile22()
+    ChDir "R:\02 Process Quality\03 Pulp Dryer"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\03 Pulp Dryer\LB PD Brightness.xlsx"
+End Sub
+Sub BukaFile23()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB Chemical Plant.xlsx"
+End Sub
+Sub BukaFile24()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB LK Lime Kiln.xlsx"
+End Sub
+Sub BukaFile25()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB O2 plant.xlsx"
+End Sub
+Sub BukaFile26()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RB ESP Ash.xlsx"
+End Sub
+Sub BukaFile27()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RB Raw Green Liquor.xlsx"
+End Sub
+Sub BukaFile28()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RC Green Liquor Clarifier.xlsx"
+End Sub
+Sub BukaFile29()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RC Weak White Liquor.xlsx"
+End Sub
+Sub BukaFile30()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RC White Liquor.xlsx"
+End Sub
+Sub BukaFile31()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB VE Heavy Black Liquor.xlsx"
+End Sub
+Sub BukaFile32()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB VE Weak Black Liquor.xlsx"
+End Sub
+Sub BukaFile33()
+    ChDir "R:\02 Process Quality\05 Water"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\05 Water\LB Water Plant.xlsx"
+End Sub
+Sub BukaFile34()
+    ChDir "R:\02 Process Quality\05 Water"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\05 Water\LB Boiler Water Contractor.xlsx"
+End Sub
+Sub BukaFile35()
+    ChDir "R:\02 Process Quality\05 Water"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\05 Water\LB Boiler Water Lab.xlsx"
+End Sub
+
+
+Sub BukaFile24_1()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB LK Lime Kiln (item).xlsx"
+End Sub
+Sub BukaFile27_1()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RB Raw Green Liquor (item).xlsx"
+End Sub
+Sub BukaFile28_1()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RC Green Liqour Clarifier (item).xlsx"
+End Sub
+Sub BukaFile29_1()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RC Weak White Liquor (item).xlsx"
+End Sub
+Sub BukaFile30_1()
+    ChDir "R:\02 Process Quality\04 Chemical"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\04 Chemical\LB RC White Liquor (item).xlsx"
+End Sub
+Sub BukaFile34_1()
+    ChDir "R:\02 Process Quality\05 Water"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\05 Water\LB Boiler Water Contractor (item).xlsx"
+End Sub
+Sub BukaFile35_1()
+    ChDir "R:\02 Process Quality\05 Water"
+    Workbooks.Open Filename:= _
+        "R:\02 Process Quality\05 Water\LB Boiler Water Lab (item).xlsx"
+End Sub
+
+
